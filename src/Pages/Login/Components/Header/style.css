@@ -1,0 +1,17 @@
+#header25{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    background-color: #C3DBE3;
+}
+
+#header25>img{
+    margin-left: 50px;
+}
+
+#header25>p{
+    margin-left: 33.5%;
+    text-align: center;
+    color: black;
+    font-size: 2.5em;
+}

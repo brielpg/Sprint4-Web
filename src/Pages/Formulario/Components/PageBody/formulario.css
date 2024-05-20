@@ -1,0 +1,96 @@
+.formulario__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+
+    height: auto;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 70px;
+
+    background-color: #C3DBE3;
+    border-radius: 40px;
+}
+
+.perguntas__formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#caixa__perguntas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#dois{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#btn2{
+    width: 100%;
+    flex-grow: 1;
+    border-radius: 40px;
+    background-color: #009ED5;
+    padding: 12px 62px;
+    height: 60px;
+    border-style: none;
+    margin-top: 10%;
+    text-align: center;
+
+    font-family: "Lexend", sans-serif;
+    font-size: 2em;
+    font-weight:400;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#btn2:hover{
+    background-color: #0178a0;
+}
+
+.perguntas__formulario input{
+
+    background-color: #ffffff;
+    border-radius: 24px;
+    border: 1px solid #999999;
+    width: 40%;
+    height: 40px;
+    padding: 5.5px 28.5px;
+
+    margin-top: 8%;
+
+    font-family: "Lexend", sans-serif;
+    font-size: 1.5em;
+    font-weight:400;
+    color: #888888;
+}
+
+#caixa__perguntas p{
+    margin-top: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    flex-grow: 1;
+    color: #444444;
+}

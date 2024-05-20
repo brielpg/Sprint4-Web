@@ -1,0 +1,80 @@
+#login-page{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+#formulario-login{
+    height: 70%;
+    width: 40%;
+    border: 2px solid gray;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#respostas-login{
+    margin: 3rem;
+    height: 90%;
+    width: 100%;
+}
+
+.inputs-login{
+    width: 100%;
+}
+
+.inputs-login>p{
+    font-size: 1.3em;
+    color: #16A5D7;
+}
+
+.inputs-login>input{
+    margin-top: 8px;
+    margin-bottom: 26px;
+    background-color: transparent;
+    border-radius: 6px;
+    border: 1px solid #999999;
+    width: 100%;
+    height: 40px;
+    font-family: "Lexend", sans-serif;
+    font-size: 1.5em;
+    font-weight:400;
+    color: #888888;
+}
+
+#btn4{
+    outline: none;
+    border: none;
+    background-color: #16A5D7;
+    border-radius: 6px;
+    padding: 14px 38px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.3em;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    color: white;
+    transition: 0.4s;
+}
+
+#btn4:hover{
+    background-color: #0164b4;
+}
+
+.checkbox_option{
+	display: flex;
+	width: 100%;
+	margin-top: 25px;
+}
+
+.checkbox_option>label{
+    margin-left: 10px;
+    font-family: "Lexend", sans-serif;
+    font-weight: 200;
+}
