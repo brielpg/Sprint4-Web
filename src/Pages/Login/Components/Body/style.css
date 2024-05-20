@@ -37,6 +37,8 @@
     color: #16A5D7;
 }
 
+/* tamanho do input do login */
+
 .inputs-login>input{
     margin-top: 8px;
     margin-bottom: 26px;
